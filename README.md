@@ -35,5 +35,13 @@ Feel free to contribute, report issues, or provide suggestions. **Let's build an
 ## Getting Started:
 1. Clone the repository.
 2. Open `index.html` in your browser to view the platform.
-
 ---
+**OUTPUTS:**
+
+<img width="1470" alt="Image" src="https://github.com/user-attachments/assets/bf23a03f-fbbf-48b8-9a3f-7ed6443b2a81" />
+
+<img width="1470" alt="Image" src="https://github.com/user-attachments/assets/ed568622-f91e-4759-a66f-f867f8814e87" />
+
+<img width="1470" alt="Image" src="https://github.com/user-attachments/assets/0e33df37-37a5-4817-a424-62085554cc84" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
