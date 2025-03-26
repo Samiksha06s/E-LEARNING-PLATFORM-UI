@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F1E7E7;
+    color: #333;
+}
+
+h1, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700; 
+    color: black;
+}
+
+h2{
+    font-size: 3.5rem; 
+    font-weight: 600; 
+    color: #2c3e50; 
+    text-align: center; 
+    margin-top: 40px; 
+    margin-bottom: 30px; 
+    font-family: 'Lora', serif; 
+    letter-spacing: 1px; 
+    text-transform: capitalize; 
+    position: relative; 
+}
+
+
+h2:hover {
+    color: #E69DB8; 
+    transform: translateY(-3px); 
+    cursor: pointer; 
+}
+
+header {
+    background-color: #FFFECE; 
+    color: white;
+    text-align: center;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFD0C7;
+    padding: 15px 25px;
+}
+
+.eLearning-logo img {
+    width: 160px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 30px;
+}
+
+.navbar ul li a {
+    color: black;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar ul li a:hover {
+    color: #E69DB8; 
+    transform: scale(1.05); 
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    justify-content: space-around;
+}
+
+.course-item {
+    width: 30%;
+    margin: 15px;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.course-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.course-info h2 {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    color: #333333; 
+}
+
+.course-info p {
+    font-size: 1rem;
+    color: #555555; 
+    margin-bottom: 15px;
+}
+
+.course-info a {
+    text-decoration: none;
+    color: #E69DB8; 
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #89606f;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.course-info a:hover {
+    background-color: #FFD0C7; 
+    color: #ffffff; 
+}
+
+footer {
+    background-color: #333333; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+

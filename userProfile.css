@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1E7E7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD0C7;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    margin-left: 0px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #E69DB8;
+}
+
+.user-profile {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    background-color: #F1E7E7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-info h3 {
+    font-size: 1.6rem;
+    color: black;
+}
+
+.progress-tracking {
+    margin-top: 30px;
+}
+
+.progress-tracking h4 {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.progress-tracking ul {
+    list-style: none;
+    padding: 0;
+}
+
+.progress-tracking ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
